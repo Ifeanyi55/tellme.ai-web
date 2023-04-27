@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>TellMe.AI</title>
+        <style>
+            body {
+                text-align: center;
+                background-color:rgb(163, 140, 248);
+              }
+              
+              
+        </style>
+    </head>
+    <body>
+        <strong><h2 id="heading1">A Computer Vision Application</h2></strong>
+        <h4>Upload An Image, And The AI Will Guess What It Is</h4>
+        <br>
+        <div id="div1">
+            <script
+                type="module"
+                src="https://gradio.s3-us-west-2.amazonaws.com/3.27.0/gradio.js">
+            </script>
+
+            <gradio-app src="https://ifeanyi-tellme-ai.hf.space"></gradio-app>
+
+        </div>
+    </body>
+</html>
